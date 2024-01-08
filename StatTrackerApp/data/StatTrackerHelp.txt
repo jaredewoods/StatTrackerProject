@@ -1,0 +1,63 @@
+# Help File for Stat Tracker Application
+
+## Overview
+The Stat Tracker is designed to log and track events during sports games. It records game information, player events, and can export this data to Excel for further analysis.
+
+## Features
+- **Game Information Entry**: Input details such as date, time, location, opponent, and quarter.
+- **Event Logging**: Record events with video time, player number, and event code.
+- **Player and Event Code Lists**: Easily select players and event codes from predefined lists.
+- **Export Functionality**: Export game data to an Excel file for further analysis.
+- **Timecode Tracking**: Live update of the current timecode from QuickTime Player.
+- **Player Roster Editing**: Modify player details through a separate editor interface.
+
+## Main Components
+1. **Game Info Section**
+    - Enter details about the game.
+    - Fields include date, start time, location, opponent, and quarter.
+
+2. **Control Section**
+    - Control playback and recording.
+    - Includes a Play/Stop button, Enter button, time adjustment spinbox, and export/quit buttons.
+
+3. **Event Entry Section**
+    - Input event details.
+    - Fields for video time, player number, event code.
+    - Provides a list of players and event codes for selection.
+
+4. **Event Log Section**
+    - Displays a log of all entered events.
+    - Includes a scrollbar for easy navigation.
+
+5. **Export Status**
+    - Shows the status of data export to Excel.
+
+## Usage Instructions
+1. **Starting a New Game Log**:
+    - Enter game details in the Game Info Section.
+    - Click 'Enter' or 'Return' to confirm each entry.
+
+2. **Logging an Event**:
+    - Enter the video time, player number, and event code in the Event Entry Section.
+    - Press 'Enter' or click the Enter button to log the event.
+
+3. **Exporting Data**:
+    - Click the 'Export Game Data' button to save the log to an Excel file.
+    - A confirmation dialog will appear before exporting.
+
+4. **Editing Player Roster**:
+    - Open the Team Roster Editor from the Player Info Section to modify player details.
+
+5. **Controlling Playback**:
+    - Use the Play/Stop button to control video playback.
+    - Adjust time with the time adjustment spinbox as needed.
+
+## Additional Notes
+- The application requires QuickTime Player for timecode tracking.
+- Excel is needed to open and view exported game data files.
+
+## Troubleshooting
+- **Script Errors**: Ensure all dependencies are properly installed and paths to external resources are correct.
+- **Export Issues**: Check file permissions and ensure Excel is installed.
+
+---

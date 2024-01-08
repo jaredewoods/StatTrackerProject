@@ -1,0 +1,13 @@
+# Requirements for Stat Tracker Folders v1.py
+
+# Tkinter calendar widget
+tkcalendar==1.6.1
+
+# Python Imaging Library (Pillow) for image processing
+Pillow==9.0.0
+
+# Pandas for data analysis and manipulation
+pandas==1.3.5
+
+# Openpyxl for Excel 2010 xlsx/xlsm/xltx/xltm file support
+openpyxl==3.0.9
